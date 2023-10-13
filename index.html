@@ -352,18 +352,67 @@
     </footer>
     <!--Request our service Modal-->
     <div class="modal is-hidden" data-modal>
+        
         <div class="modal-content">
+            <h4>Leave your information and we'll call you back</h4>
              <svg class="close-btn" data-modal-close>
               <use href="./symbol-defs.svg#icon-close" />
              </svg>
-             <form action="" method="get" autocomplete="off">
-            <label for="name">Name</label>
-             <input type="text" name="name" id="name" placeholder=""/>
-            <label for="Telephone">Telephone</label>
-            <input type="text" name="Telephone" id="Telephone" placeholder=""/>
-            <label for="E-mail">E-mail</label>
-            <input type="text" name="E-mail" id="E-mail" placeholder=""/>
-             <input type="submit" value="Send"/>
+             <form action="" method="get" autocomplete="off" class="contact-form">
+           <div class="form-section">
+            <label class="form-label" for="name">Name</label>
+           <div class="input-container">
+            <input class="text-field" type="text" name="name" id="name" Request/>
+            <svg width="18" height="18">
+                <use href="./symbol-defs.svg#icon-person"></use>
+            </svg>
+           </div>
+           </div>
+           <div class="form-section">
+            <label class="form-label" for="Telephone">Telephone</label>
+            <div class="input-container">
+                <input class="text-field" type="number" name="Telephone" id="Telephone" />
+            <svg width="18" height="18">
+              <use href="./symbol-defs.svg#icon-phone"></use>
+            </svg>
+            </div>
+           </div>
+           <div class="form-section">
+            <label class="form-label" for="E-mail">E-mail</label>
+            <div class="input-container">
+                <input class="text-field" type="text" name="E-mail" id="E-mail"/>
+            <svg width="18" height="18">
+                <use href="./symbol-defs.svg#icon-email"></use>
+            </svg>
+            </div>
+           </div>
+           <div class="input-container">
+            <label class="form-label" for="Comments">Comments</label>
+            <textarea placeholder="Enter the text"></textarea>
+           </div>
+           <div class="input-container terms-and-conditions-container">
+            <input
+              type="checkbox"
+              class="terms-and-conditions-check"
+              name="terms-and-conditions-check"
+              id="terms-and-conditions-check"
+              value="Checked"
+            />
+            <label
+              class="terms-and-conditions-label"
+              for="terms-and-conditions-check"
+            >
+              <svg class="icon-checkbox">
+                <use href="./symbol-defs.svg#icon-checkbox"></use>
+              </svg>
+              <span>
+                I agree with the letter and accept the
+                <a href="#">Terms and Conditions</a>
+              </span>
+            </label>
+          </div>
+             <button class="button-send" type="button">Send</button>
+            
              </form>
         </div> 
 
