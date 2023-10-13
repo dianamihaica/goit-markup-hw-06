@@ -819,3 +819,37 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.6px;
 }
+.subscribe h3{
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.text-subscribe{
+  width: 358px;
+height: 50px;
+flex-shrink: 0;
+  border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.text-subscribe::placeholder{
+display: flex;
+width: 47px;
+height: 20px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: rgba(255, 255, 255, 0.60);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+letter-spacing: 0.48px;
+}
