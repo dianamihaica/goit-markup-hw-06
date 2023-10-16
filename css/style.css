@@ -750,18 +750,19 @@ text-decoration-line: underline;
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 8px;
   cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
-
 .terms-and-conditions {
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 8px;
 }
 
-.terms-and-conditions span {
+.terms-and-conditions-label span {
   font-family: 'Roboto';
   font-size: 14px;
   font-weight: 400;
@@ -770,7 +771,7 @@ text-decoration-line: underline;
   color: #757575;
 }
 
-.terms-and-conditions span a {
+.terms-and-conditions-label span a {
   color: #2196f3;
 }
 
@@ -778,19 +779,23 @@ text-decoration-line: underline;
   width: 13px;
   height: 13px;
   position: absolute;
-  top: calc(50% - 8px);
-  left:0;
+  top: 23px;
+  left:18.5px;
 }
 .terms-and-conditions-check{
+  width: 13px;
+  height: 13px;
   accent-color: #188ce8;
+  margin-left: 13px;
+  padding: 20px;
 }
-/* .terms-and-conditions-check:not(:checked) {
+ .terms-and-conditions-check:not(:checked) {
   visibility: hidden;
 }
 
 .terms-and-conditions-check:checked + label > svg {
   display: none;
-} */
+} 
 .button-send{
 width: 200px;
 height: 50px;
@@ -807,8 +812,7 @@ letter-spacing: 0.96px;
 align-items: flex-start;
 text-align: center;
 margin-left: 120px;
-margin-top: 30px;
-margin-bottom: 60px;
+margin-top: -20px;
 }
 .modal-content h4{
   width:440px;
