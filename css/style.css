@@ -781,14 +781,16 @@ text-decoration-line: underline;
   top: calc(50% - 8px);
   left:0;
 }
-
-.terms-and-conditions-check:not(:checked) {
+.terms-and-conditions-check{
+  accent-color: #188ce8;
+}
+/* .terms-and-conditions-check:not(:checked) {
   visibility: hidden;
 }
 
 .terms-and-conditions-check:checked + label > svg {
   display: none;
-}
+} */
 .button-send{
 width: 200px;
 height: 50px;
@@ -890,7 +892,4 @@ flex-shrink: 0;
 fill: #FFF;
 padding-left: 10px;
 padding-top: 10px;
-}
-.checkbox{
-  accent-color: #188CE8;
 }
