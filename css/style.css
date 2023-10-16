@@ -891,6 +891,6 @@ fill: #FFF;
 padding-left: 10px;
 padding-top: 10px;
 }
-/* input:checked{
-  background-image: image(icon-checkbox);
-} */
+.input-container terms-and-conditions-container{
+  accent-color: #188CE8;
+}
