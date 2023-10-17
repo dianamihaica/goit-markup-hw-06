@@ -338,15 +338,30 @@ address {
   margin-top: 50px;
   
 }
-
-.section-fourth{
+.section-team{
+  padding-top: 100px;
+}
+.section-fourth-team{
   background-color: #F5F4FA;
+}
+.section-fourth h2 {
+  color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.section-fourth{
+  
   display: flex;
   align-items: center;
   justify-content: center;
   gap:30px;
   box-sizing: border-box;
-  padding: 200px;
+  padding: 100px;
   margin:0px;
 }
 .info-container{
